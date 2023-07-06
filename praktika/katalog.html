@@ -38,8 +38,59 @@
         </header>
         <main>
             <h1>Каталог</h1>
-            
 
+            <button data-modal-button="modal-1" class="btn btn-outline-primary mb-1" type="button">
+                Открыть Каталог товаров
+            </button>
+
+            <button data-modal-button="modal-2" class="btn btn-outline-primary mb-1" type="button">
+                Открыть Каталог услуг
+            </button>
+
+            <div id="modal-1" data-modal class="fade-block hidden">
+                <div class="modal-window">
+                    <div class="card">
+                        <div class="card-header">
+                            Католог товаров
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                тормоза, шины, диски
+                            </p>
+                            <button
+                                data-modal-close
+                                type="button"
+                                class="btn btn-dark"
+                            >
+                                Закрыть окно
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="modal-2" data-modal class="fade-block hidden">
+                <div class="modal-window">
+                    <div class="card">
+                        <div class="card-header">
+                            Католог услуг
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                ремонт
+                            </p>
+                            <button
+                                data-modal-close
+                                type="button"
+                                class="btn btn-dark"
+                            >
+                                Закрыть окно
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
+        <script src="./logikaKatalog.js"></script>
     </body>
 </html>
