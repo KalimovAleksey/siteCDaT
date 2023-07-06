@@ -1,0 +1,107 @@
+header{
+    background-color: brown;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+main{
+    background-color: brown;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    color:aliceblue;
+}
+
+nav{
+    text-align: left;
+    padding: 1%;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+nav a{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav a:hover {
+    background-color: #0096ff;
+    color: black;
+    border-radius: 10px;
+}
+
+
+
+h1{
+    text-align: center;
+    font-size: 24px;
+}
+
+.p{
+    text-align:center;
+}
+
+.logo{
+    width: 100px;
+    margin-left: 30%;
+}
+
+.info{
+    text-align: right;
+    margin-top:10px;
+}
+
+.table{
+    width: 100%;
+    color:aliceblue;
+}
+
+.logo1{
+    width:50%;
+}
+
+.logo2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.l{
+    text-align: center;
+}
+
+.gallery{
+    display: inline-block;
+}
+
+.gallery_item{
+    margin: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    float: left;
+    width: 240px;
+}
+
+.gallery_item:hover{
+    border: 1px solid #ccc;
+    transform: scale(1.1);
+}
+
+.gallery_item img{
+    width: 100%;
+    margin-top: 5px;
+    height: auto;
+}
+
+.gallery_item .desc{
+    padding: 15px;
+    text-align: center;
+}
+
