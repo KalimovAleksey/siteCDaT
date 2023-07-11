@@ -15,11 +15,11 @@
                    <table class="logo2">
                         <tr>
                             <td>Адрес магазина:</td>
-                            <td>павраоапоорапо</td>
+                            <td><a href="https://2gis.ru/kazan/firm/2956016536488988/49.269946%2C55.811647?m=49.270169%2C55.811452%2F19.14%2Fp%2F45%2Fr%2F24.95" id="ssilka">Интернациональная, 5а</a></td>
                         </tr>
                         <tr>
-                            <td>Номер телевона:</td>
-                            <td>3654654365465</td>
+                            <td>Номерa телевона:</td>
+                            <td>+7‒903‒305‒63‒33<br>+7 (843) 253‒63‒33</td>
                         </tr>
                    </table>
                 </td>
@@ -28,16 +28,45 @@
 
         <header>
             
-            <nav>
-                <img src="picture/menu1.png">
-                <a href="index.html">Главная</a>
-                <a href="katalog.html">Каталог</a>
-                <a href="regist.html">Регистрация</a>
-                <a href="uslugi.html">Услуги</a>
-            </nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="katalog.html">Каталог</a></li>
+                <li><a href="regist.html">Регистрация</a></li>
+                <li><a href="uslugi.html">Услуги</a></li>
+            </ul>
         </header>
         <main>
-            <h1>Реристрация</h1>
+            <div class="row">
+                
+                <div class="card">
+                    <h1>Реристрация</h1>
+                    <p>Необходимо ввести следующие данные:</p>
+                    <form action="action.php" method="post">
+
+                        <lable for="family">Фамилия</lable><br>
+                        <input type="text" id="family" placeholder="Иванов" name="family" required><br>
+
+                        <lable for="name">Имя</lable><br>
+                        <input type="text" id="name" placeholder="Иван" name="name" required><br>
+
+                        <lable for="tel">Номер телефона</lable><br>
+                        <input type="tel" id="tel" placeholder="+7 (900) 000 00 00" name="tel" required><br>
+
+                        <lable for="email">Электронная почта</lable><br>
+                        <input type="email" id="email" placeholder="email@.' '" name="email" required><br>
+
+                    </form> 
+                </div>
+                    
+
+                <div class="card">
+                    <h2>Ваша корзина:</h2>
+                </div>
+
+
+            </div>
+            
+            
             
 
         </main>
