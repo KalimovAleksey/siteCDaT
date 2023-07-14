@@ -35,33 +35,61 @@
                 <li><a href="uslugi.html">Услуги</a></li>
             </ul>
         </header>
-        <main>
-            <div class="card">
-                
+                <main>
+            <div class = "card">
                 <h1>Каталог</h1>
+                <div class="row">
+                    <button data-modal-button="modal-1" class="btn btn-outline-primary mb-1 image_katalog" type="button">
+                        <img src="picture/каталоги автозапчастей.jpg"  width="300px" height="240px">
+                        <h3 class="katalog_text_img"><span> Открыть Католог автозапчастей и аксессуаров</span></h3>
+                    </button>
+    
+                    <button data-modal-button="modal-2" class="btn btn-outline-primary mb-1 image_katalog" type="button">
+                        <img src="picture/remont.jpg"  width="300px" height="240px">
+                        <h3 class="katalog_text_img"><span> Открыть Каталог услуг</span></h3>
+                    </button>
+    
+                </div>
 
-                <button data-modal-button="modal-1" class="btn btn-outline-primary mb-1" type="button">
-                    Открыть Каталог товаров
-                </button>
-
-                <button data-modal-button="modal-2" class="btn btn-outline-primary mb-1" type="button">
-                    Открыть Каталог услуг
-                </button>
-
+                
                 <div id="modal-1" data-modal class="fade-block hidden">
                     <div class="modal-window">
                         <div class="card">
                             <div class="card-header">
-                                Католог товаров
+                                <h2>Католог автозапчастей и аксессуаров</h2>
                             </div>
                             <div class="card-body">
-                                <p>
-                                    тормоза, шины, диски
-                                </p>
+                                <div class="row">
+                                    <div class="image_katalog">
+                                        <img src="" width="300px" height="240px" />
+                                        <a href="katalog/vihlop_sys.html"><h3 class="katalog_text_img"><span>​Выхлопная система</span></h3></a> 
+                                    </div>
+                                    <div class="image_katalog">
+                                        <img src="" width="300px" height="240px" />
+                                        <a href="katalog/engine.html"><h3 class="katalog_text_img"><span>Двигатели</span></h3></a> 
+                                    </div>
+                                    <div class="image_katalog">
+                                        <img src="picture/motor_maslo.jpg" width="300px" height="240px" />
+                                        <a href="katalog/krepej.html"><h3 class="katalog_text_img"><span>Крепёж</span></h3></a> <!-- поставить ссылку-->
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="image_katalog">
+                                        <img src="picture/motor_maslo.jpg" width="300px" height="240px" />
+                                        <a href=""><h3 class="katalog_text_img"><span>Кузов</span></h3></a> <!-- поставить ссылку-->
+                                    </div>
+                                    <div class="image_katalog">
+                                        <img src="picture/motor_maslo.jpg" width="300px" height="240px" />
+                                        <a href=""><h3 class="katalog_text_img"><span>Автооптика</span></h3></a> <!-- поставить ссылку-->
+                                    </div>
+                                    <div class="image_katalog">
+                                        <img src="picture/motor_maslo.jpg" width="300px" height="240px" />
+                                        <a href=""><h3 class="katalog_text_img"><span>Подвеска и ходовая</span></h3></a> <!-- поставить ссылку-->
+                                    </div>
+                                </div>
                                 <button
                                     data-modal-close
                                     type="button"
-                                    class="btn btn-dark"
                                 >
                                     Закрыть окно
                                 </button>
@@ -74,12 +102,40 @@
                     <div class="modal-window">
                         <div class="card">
                             <div class="card-header">
-                                Католог услуг
+                                <h2>Католог Услуг</h2>
                             </div>
                             <div class="card-body">
-                                <p>
-                                    ремонт
-                                </p>
+                                
+                                <h3>Шиномонтаж</h3>
+                                <div class="row">
+                                    <div class="image_katalog">
+                                        <img src="" width="300px" height="240px" />
+                                        <a href=""><h3 class="katalog_text_img"><span>Замена колодок​</span></h3></a> <!-- поставить ссылку-->
+                                    </div>
+                                    <div class="image_katalog">
+                                        <img src="" width="300px" height="240px" />
+                                        <a href=""><h3 class="katalog_text_img"><span>Ошиповка шин​</span></h3></a> <!-- поставить ссылку-->
+                                    </div>
+                                    <div class="image_katalog">
+                                        <img src="" width="300px" height="240px" />
+                                        <a href=""><h3 class="katalog_text_img"><span>Замена шин R14 от 800р​</span></h3></a> <!-- поставить ссылку-->
+                                    </div>
+                                </div>
+                                <h3>Ремонт ходовой части автомобиля</h3>
+                                <div class="row">
+                                    <div class="image_katalog">
+                                        <img src="" width="300px" height="240px" />
+                                        <a href=""><h3 class="katalog_text_img"><span>Ремонт пневмоподвески​</span></h3></a> <!-- поставить ссылку-->
+                                    </div>
+                                    <div class="image_katalog">
+                                        <img src="" width="300px" height="240px" />
+                                        <a href=""><h3 class="katalog_text_img"><span>Ремонт стоек</span></h3></a> <!-- поставить ссылку-->
+                                    </div>
+                                    <div class="image_katalog">
+                                        <img src="" width="300px" height="240px" />
+                                        <a href=""><h3 class="katalog_text_img"><span>Проточка тормозных дисков​</span></h3></a> <!-- поставить ссылку-->
+                                    </div>
+                                </div>
                                 <button
                                     data-modal-close
                                     type="button"
